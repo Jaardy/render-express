@@ -1,9 +1,14 @@
 {
+  "main": "server.js",
   "dependencies": {
     "express": "^4.18.2"
   },
   "scripts": {
+    "dev": "nodemon server.js",
     "build": "npm ci",
     "start": "node server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
